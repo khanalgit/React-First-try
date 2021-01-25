@@ -6,7 +6,7 @@ import './service_card.css'
 const ServiceCard = (props) => {
   return (
     <div className="service">
-        <SubTitle> {props.logo} </SubTitle>
+        <img src={props.logo} height="35px"/>
         <Heading>{ props.title }</Heading>
         <p>{ props.description}</p>
       </div>

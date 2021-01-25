@@ -1,0 +1,19 @@
+.cta-section{
+    display:flex;
+    background-color: #d04946;
+    padding:50px 0;
+    justify-content: space-around;
+    color:#fff;
+}
+.cta-item{
+    padding:15px;
+}
+.cta-item:nth-child(2){
+    border-left:1px solid rgba(255,255,255,0.3);
+}
+.cta-item:nth-child(3){
+    text-align: center;
+}
+.btn{
+    border:1px solid #fff;
+}
